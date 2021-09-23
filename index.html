@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+<body class="bg-light">
+  <div class="container">
+    <!-- <h1></h1> -->
+    <div class="row">
+      <div class="col-3">
+        <form action="" class="form-celcius input-group my-5">
+          <input type="number" class="form-control celcius-input-js" id="celcius-id">
+          <button class="btn btn-outline-secondary" type="button" id="celcius-id" tabindex="-1">celcius</button>
+        </form>
+      </div>
+      <div class="col-6">
+        <div style="height: 30vh;" class="bg-secondary  rounded-3 pt-4">
+          <div class="row g-0">
+            <div class="col-5 display-3  celcius-display-js d-flex justify-content-center bg-light border border-1 border-secondary rounded-3"></div>
+          <div class="col-2 display-4 d-flex justify-content-center text-light"> = </div>
+          <div class="col-5 display-3 farengit-display-js d-flex justify-content-center  bg-light border border-1 border-secondary rounded-3"></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <form action="" class="form-farengit my-5 input-group">
+          <button class="btn btn-outline-secondary" type="button" id="farengit-id" tabindex="-1">farengit</button>
+          <input type="number" class="form-control farengit-input-js" id="farengit-id">
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html>
